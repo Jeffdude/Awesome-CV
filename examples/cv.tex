@@ -26,9 +26,9 @@
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-skyblue}
+\colorlet{awesome}{awesome-red}
 % Uncomment if you would like to specify your own color
-% \definecolor{awesome}{HTML}{3E6D9C}
+% \definecolor{awesome}{HTML}{CA63A8}
 
 % Colors for text
 % Uncomment if you would like to specify your own color
@@ -36,10 +36,10 @@
 % \definecolor{text}{HTML}{333333}
 % \definecolor{graytext}{HTML}{5D5D5D}
 % \definecolor{lighttext}{HTML}{999999}
-\definecolor{sectiondivider}{HTML}{00A0DB}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
 
 % Set false if you don't want to highlight section with awesome color
-\setbool{acvSectionColorHighlight}{false}
+\setbool{acvSectionColorHighlight}{true}
 
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
@@ -50,30 +50,30 @@
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
-\photo[rectange,noedge,left]{./AtomBW.png}
-\name{Jeffrey}{Milling}
-\position{Full Stack Developer{\enskip\cdotp\enskip}Co-owner \& CTO @ JMKRIDE USA}
-%\address{San Diego, California}
+% \photo{./examples/profile.png}
+\name{Claud D.}{Park}
+\position{Site Reliability Engineer{\enskip\cdotp\enskip}Software Architect}
+\address{235, World Cup buk-ro, Mapo-gu, Seoul, 03936, Republic of Korea}
 
-\mobile{(480) 390-1492}
-\email{jeffmilling@gmail.com}
+\mobile{(+82) 10-9030-1843}
+\email{posquit0.bj@gmail.com}
 %\dateofbirth{January 1st, 1970}
-\homepage{jeffdude.github.io}
-\github{Jeffdude}
-% \linkedin{Jeffrey-Milling}
+\homepage{www.posquit0.com}
+\github{posquit0}
+\linkedin{posquit0}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
 % \skype{skype-id}
 % \reddit{reddit-id}
-% \medium{madium-id}
+% \medium{medium-id}
 % \kaggle{kaggle-id}
 % \googlescholar{googlescholar-id}{name-to-display}
 %% \firstname and \lastname will be used
 % \googlescholar{googlescholar-id}{}
-\extrainfo{\faMapMarker\hspace*{1mm}San Diego, California}
+% \extrainfo{extra information}
 
-% \quote{``Be the change that you want to see in the world."}
+\quote{``Be the change that you want to see in the world."}
 
 
 %-------------------------------------------------------------------------------
@@ -81,13 +81,13 @@
 
 % Print the header with above personal information
 % Give optional argument to change alignment(C: center, L: left, R: right)
-\makecvheader[L]
+\makecvheader
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Jeffrey Milling~~~·~~~Résumé}
+  {Claud D. Park~~~·~~~Curriculum Vitae}
   {\thepage}
 
 
@@ -95,14 +95,15 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{resume/summary.tex}
-\input{resume/experience.tex}
-%\input{resume/honors.tex}
-%\input{resume/presentation.tex}
-%\input{resume/writing.tex}
-%\input{resume/committees.tex}
-\input{resume/education.tex}
-%\input{resume/extracurricular.tex}
+\input{cv/education.tex}
+\input{cv/skills.tex}
+\input{cv/experience.tex}
+\input{cv/extracurricular.tex}
+\input{cv/honors.tex}
+\input{cv/certificates.tex}
+\input{cv/presentation.tex}
+\input{cv/writing.tex}
+\input{cv/committees.tex}
 
 
 %-------------------------------------------------------------------------------
