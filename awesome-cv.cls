@@ -415,7 +415,7 @@
 \newcommand{\acvHeaderAfterQuoteSkip}{5mm}
 
 % Others
-\newcommand{\acvSectionTopSkip}{1mm}
+\newcommand{\acvSectionTopSkip}{0mm}
 \newcommand{\acvSectionContentTopSkip}{2.5mm}
 
 
@@ -449,9 +449,11 @@
       \ifthenelse{\equal{\@photoedge}{edge}}%
         {\def\@photoborder{darkgray}}%
         {\def\@photoborder{none}}%
-      \begin{tikzpicture}%
-        \node[\@photoshape, draw=\@photoborder, line width=0.3mm, inner sep=\photodim, fill overzoom image=\@photo] () {};
-      \end{tikzpicture}
+      \scalebox{0.6}{
+        \begin{tikzpicture}%
+          \node[\@photoshape, draw=\@photoborder, line width=0.3mm, inner sep=\photodim, fill overzoom image=\@photo] () {};
+        \end{tikzpicture}
+      }
     }%
   }
   \newlength{\headertextwidth}
@@ -736,6 +738,7 @@
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
     \renewcommand{\labelitemi}{\bullet}
+    \renewcommand{\labelitemii}{\bullet}
 }{%
   \end{itemize}
   \end{justify}
