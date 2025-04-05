@@ -1,0 +1,17 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "coverletter.xdv" "coverletter.pdf" "coverletter" 0
+  "coverletter.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "coverletter.pdf"
+["xelatex"] 1694637992 "/home/jeff/code/Awesome-CV/examples/coverletter.tex" "coverletter.xdv" "coverletter" 1694637992
+  "/etc/texmf/web2c/texmf.cnf" 1691525866 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/jeff/code/Awesome-CV/examples/coverletter.tex" 1691526419 5904 24dd7f75e4e601ea93b4c1b5e6e78c53 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1691525878 3606622 655bcb6ca571406c56f3aff7e0af5adc ""
+  "awesome-cv.cls" 0 -1 0 ""
+  "coverletter.aux" 1694637992 32 3985256e7290058c681f74d7a3565a19 ""
+  "coverletter.tex" 1691526419 5904 24dd7f75e4e601ea93b4c1b5e6e78c53 ""
+  (generated)
+  "coverletter.log"
+  "coverletter.xdv"
