@@ -9,6 +9,12 @@
 <p align="center">
   Jeff Milling CV Fork
 </p>
+<p>
+  For Future Jeff: How to build:
+  > Command pallette 
+  > LaTeX Workshop: Build with recipe 
+  > latexmk (xelatex)
+</p>
 
 <div align="center">
   <a href="https://www.paypal.me/posquit0">
