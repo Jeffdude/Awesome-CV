@@ -1,11 +1,11 @@
 # Fdb version 3
-["xdvipdfmx"] 1694643194 "coverletter.xdv" "coverletter.pdf" "coverletter" 1694643194
-  "coverletter.xdv" 1694643194 37500 19f6102444f14087f70ee476e25456cc "xelatex"
+["xdvipdfmx"] 1744001127 "coverletter.xdv" "coverletter.pdf" "coverletter" 1744001128
+  "coverletter.xdv" 1744001127 38888 d1d0a107affd8883e70b7695085b7130 "xelatex"
   (generated)
   "coverletter.pdf"
-["xelatex"] 1694643192 "/home/jeff/code/Awesome-CV/coverletter.tex" "coverletter.xdv" "coverletter" 1694643194
+["xelatex"] 1744001125 "/home/jeff/code/Awesome-CV/coverletter.tex" "coverletter.xdv" "coverletter" 1744001128
   "/etc/texmf/web2c/texmf.cnf" 1691525866 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/jeff/code/Awesome-CV/coverletter.tex" 1694643192 6929 aa4a8e60327e08381035475d710020d8 ""
+  "/home/jeff/code/Awesome-CV/coverletter.tex" 1744001123 7062 8d4adbcda215e57502d0e99f583e966a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -172,11 +172,11 @@
   "/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1605910342 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
-  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1691525878 3606622 655bcb6ca571406c56f3aff7e0af5adc ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1710702487 3606635 021ed2ebc48d42532a18bb738a3f994c ""
   "AtomBW.png" 1691525644 30961 4326f3b2dee338fd5ab3b240ecc59bd4 ""
   "awesome-cv-coverletter.cls" 1694638395 29600 8d40609025f93862de82a3e783397186 ""
-  "coverletter.aux" 1694643194 596 c88ae3f6d8f558768c3bef4aa44ed6e7 "xelatex"
-  "coverletter.tex" 1694643192 6929 aa4a8e60327e08381035475d710020d8 ""
+  "coverletter.aux" 1744001127 596 c88ae3f6d8f558768c3bef4aa44ed6e7 "xelatex"
+  "coverletter.tex" 1744001123 7062 8d4adbcda215e57502d0e99f583e966a ""
   (generated)
   "coverletter.aux"
   "coverletter.log"
